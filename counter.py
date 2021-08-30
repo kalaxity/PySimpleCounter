@@ -15,7 +15,7 @@ menu = [
 ]
 layout = [
     [menu],
-    [sg.Text(text=f"{count:10}", key="display", justification="center", font=("Helvetica", 20))], # とりあえず5桁で
+    [sg.Text(text=f"{count:10}", key="display", justification="center", font=("Helvetica", 20))],
     [sg.Button(button_text="カウント！", size=(20, 10), key="count")],
     [sg.Text()], # 誤爆防止のため空欄を入れる
     [sg.Button(button_text="reset", size=(9, 1), key="reset"),
